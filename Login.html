@@ -17,38 +17,41 @@
             <div><h3>LOG IN:</h3>
                 <h4>Login to your Full Stack Developer account!</h4>
             </div>
-        <form action="test.py" method="POST" novalidate target="_blank">
-            <div title="Username">
-                <label for="user">Username</label><br>
-                <input id="user" type="text" required name="user"
-                    placeholder="name or around">
-            </div>
-            <hr>
-            <div title="Password">
-                <label for="pas">Password</label> <br>
-                <input id="pas" type="password" name="pass"
-                    placeholder="Complex pass,please"
-                    minlength="8" maxlength="16">
-            </div>
-            <hr>
-            <div title="Mobile">
-                <label for="mo">Mobile</label> <br>
-                <input id="mo" type="text" name="Mobile"
-                    placeholder="can add States code(+..)"
-                    autofocus>
-            </div>
-            <hr>
-            <div title="Email">
-                <label for="em">Email</label> <br>
-                <input id="em" type="email" name="mail" required
-                    placeholder="@gmail">
-            </div>
-            <hr>
-            <textarea name="hopes" cols="30" rows="20"
-                placeholder="Enter Any Notes, tips .."></textarea>
-            <hr>
-            <input type="submit" value="Send Data">
-            <input type="reset" value="Empty Form">
-        </form>
-    </body>
-</html>
+            <form action="test.py" method="POST" novalidate target="_blank">
+                <div title="Username">
+                    <label for="user">Username</label><br>
+                    <input id="user" type="text" required name="user"
+                        placeholder="name or around"
+                        autocomplete="off">
+                </div>
+                <hr>
+                <div title="Password">
+                    <label for="pas">Password</label> <br>
+                    <input id="pas" type="password" name="pass"
+                        placeholder="Complex pass,please"
+                        minlength="8" maxlength="16"
+                        autocomplete="new-password">
+                </div>
+
+                <hr>
+                <div title="Mobile">
+                    <label for="mo">Mobile</label> <br>
+                    <input id="mo" type="text" name="Mobile"
+                        placeholder="can add States code(+..)"
+                        autofocus autocomplete="off">
+                </div>
+                <hr>
+                <div title="Email">
+                    <label for="em">Email</label> <br>
+                    <input id="em" type="email" name="mail" required
+                        placeholder="@gmail" autocomplete="off">
+                </div>
+                <hr>
+                <textarea name="hopes" cols="30" rows="20"
+                    placeholder="Enter Any Notes, tips .."></textarea>
+                <hr>
+                <input type="submit" value="Send Data">
+                <input type="reset" value="Empty Form">
+            </form>
+        </body>
+    </html>
